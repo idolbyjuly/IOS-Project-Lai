@@ -1,8 +1,9 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "bakugo_gaitubao_com_40x40.jpeg",
       "scale" : "2x"
     },
     {
