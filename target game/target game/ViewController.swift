@@ -22,8 +22,20 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       // startNewRound()
         startNewGame()
+        
+        //set slider pic
+        let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal")
+        slider.setThumbImage(thumbImageNormal, for: .normal)
+        let thumbImageHighlighted = #imageLiteral(resourceName: "SliderThumb-Highlighted")
+        slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
+        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+        let trackLeftImage = #imageLiteral(resourceName: "SliderTrackLeft")
+        let trackLeftResizable = trackLeftImage.resizableImage(withCapInsets: insets)
+        slider.setMinimumTrackImage(trackLeftResizable, for: .normal)
+        let trackRightImage = #imageLiteral(resourceName: "SliderTrackRight")
+        let trackRightResizable = trackRightImage.resizableImage(withCapInsets: insets)
+        slider.setMaximumTrackImage(trackRightResizable, for: .normal)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -48,7 +60,7 @@ class ViewController: UIViewController {
             title = "try again! It's too far!"
         }
         score += point
-        let message = "your score is: \(point)"
+        let message = "your score is: \(point)" + "\nyour chose value is: \(currentValue)"
         let alert=UIAlertController(title:title,message: message,preferredStyle:.alert)
         let action=UIAlertAction(title:"OK",style:.default,handler:nil)
         alert.addAction(action)
