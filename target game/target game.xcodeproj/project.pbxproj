@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B809A23A211E4E7300A26699 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B809A239211E4E7300A26699 /* AboutViewController.swift */; };
-		B809A23C211FAF5400A26699 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = B809A23B211FAF5400A26699 /* BullsEye.html */; };
 		B83501BE211BD1310063FFFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83501BD211BD1310063FFFA /* AppDelegate.swift */; };
 		B83501C0211BD1310063FFFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83501BF211BD1310063FFFA /* ViewController.swift */; };
 		B83501C3211BD1310063FFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B83501C1211BD1310063FFFA /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		B809A239211E4E7300A26699 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		B809A23B211FAF5400A26699 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		B83501BA211BD1310063FFFA /* target game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "target game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83501BD211BD1310063FFFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83501BF211BD1310063FFFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 		B83501B1211BD1310063FFFA = {
 			isa = PBXGroup;
 			children = (
-				B809A23B211FAF5400A26699 /* BullsEye.html */,
 				B83501BC211BD1310063FFFA /* target game */,
 				B83501D4211BD1330063FFFA /* target gameTests */,
 				B83501DF211BD1330063FFFA /* target gameUITests */,
@@ -239,7 +236,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B83501CB211BD1330063FFFA /* LaunchScreen.storyboard in Resources */,
-				B809A23C211FAF5400A26699 /* BullsEye.html in Resources */,
 				B83501C8211BD1330063FFFA /* Assets.xcassets in Resources */,
 				B83501C3211BD1310063FFFA /* Main.storyboard in Resources */,
 			);
